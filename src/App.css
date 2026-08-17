@@ -1,0 +1,44 @@
+/* --- NEW: Expansion Accordion Styling --- */
+.expansion-group {
+  background-color: #222;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #444;
+  overflow: hidden;
+}
+
+.expansion-title {
+  background-color: #333;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid #444;
+}
+
+/* Removes the default HTML triangle marker on some browsers so it looks cleaner */
+.expansion-title::marker {
+  display: none;
+}
+.expansion-title::-webkit-details-marker {
+  display: none;
+}
+
+.expansion-title:hover {
+  background-color: #444;
+}
+
+.expansion-count {
+  font-size: 0.9rem;
+  color: #aaa;
+  font-weight: normal;
+}
+
+/* Add a little padding inside the accordion so the cards don't hug the walls */
+.expansion-group .quest-list {
+  padding: 1rem;
+}

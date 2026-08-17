@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "Close to Home", "level": 1, "patch": "2.0", "expansion": "A Realm Reborn" },
+  { "id": 2, "name": "To the Bannock", "level": 4, "patch": "2.0", "expansion": "A Realm Reborn" },
+  { "id": 3, "name": "Passing Muster", "level": 5, "patch": "2.0", "expansion": "A Realm Reborn" },
+  { "id": 4, "name": "Coming to Ishgard", "level": 50, "patch": "3.0", "expansion": "Heavensward" },
+  { "id": 5, "name": "Walk of a Champion", "level": 50, "patch": "3.0", "expansion": "Heavensward" },
+  { "id": 6, "name": "A New World to Explore", "level": 90, "patch": "7.0", "expansion": "Dawntrail" },
+  { "id": 7, "name": "The Golden City", "level": 91, "patch": "7.0", "expansion": "Dawntrail" }
+]
